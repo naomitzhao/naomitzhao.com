@@ -1,2 +1,28 @@
-node_modules
-dist
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+.swc/
+
+# production .env
+.env.production
+
+# logs
+*.log
+next-debug.log
+
+# Editor/IDE-specific files
+.vscode/
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
