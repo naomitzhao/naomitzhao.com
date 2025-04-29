@@ -1,0 +1,20 @@
+:root {
+  // global variables here
+  --background: #ffccdf;
+  --text-primary: #290b13;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--inter);
+  color: var(--text-primary);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
