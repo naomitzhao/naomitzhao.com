@@ -1,6 +1,5 @@
 import styles from "./page.module.scss";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
         <div className={styles.textContent}>
           <h1>hi, i&apos;m naomi!</h1>
           <div className={styles.subTexts}>
-            <p>i'm someone who's passionate about full-stack development, user experience, and learning as much as i can.</p>
+            <p>i&apos;m someone who&apos;s passionate about full-stack development, user experience, and learning as much as i can.</p>
             <p>check out my github to see some of my work!</p>
           </div>
         </div>
