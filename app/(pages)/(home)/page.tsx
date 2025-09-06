@@ -1,13 +1,11 @@
 import styles from "./page.module.scss";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Image from "next/image";
+import { BackgroundImage } from "@/app/_components/BackgroundImage/BackgroundImage";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div className={styles.backgroundImage}>
-        <Image src="/light_clouds.jpg" alt="Background image of light sky with clouds" fill/>
-      </div>
+      <BackgroundImage/>
       <div className={styles.content}>
         <div className={styles.textContent}>
           <div className={styles.textSection}>
