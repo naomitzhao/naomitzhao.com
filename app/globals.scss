@@ -1,6 +1,6 @@
 :root {
   // global variables here
-  --background: #ffccdf;
+  --background: #ead9df;
   --text-primary: #290b13;
   --text-secondary: #662033;
 }
@@ -16,7 +16,6 @@ body {
 a {
   color: var(--text-primary);
   font-size: 1rem;
-  transition: 0.3s;
 }
 
 * {
@@ -24,11 +23,6 @@ a {
   padding: 0;
   margin: 0;
 }
-
-h1, h2, h3 {
-  transition: 0.3s;
-}
-
 
 h1:hover, h2:hover, h3:hover, a:hover {
   color: var(--text-secondary);
@@ -44,8 +38,4 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-}
-
-a:hover {
-  font-size: 1.0625rem;
 }

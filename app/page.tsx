@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.scss";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -6,9 +5,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.content}>
-        <div className={styles.imageContainer}>
-          <Image src="/naomi_pfp.jpg" fill alt="Selfie" className={styles.image}/>
-        </div>
         <div className={styles.textContent}>
           <h1>hi, i&apos;m naomi!</h1>
           <div className={styles.subTexts}>
