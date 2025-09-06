@@ -1,8 +1,12 @@
 :root {
   // global variables here
-  --background: #ead9df;
-  --text-primary: #290b13;
-  --text-secondary: #662033;
+  --background-primary: #ffffff;
+  --background-overlay: #ffffff80;
+  --text-primary: #0d0b29;
+  --text-secondary: #245e9c;
+
+  --navbar-height: 80px;
+  --footer-height: 40px;
 }
 
 html,
@@ -15,13 +19,13 @@ body {
 
 a {
   color: var(--text-primary);
-  font-size: 1rem;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-size: 1.0625rem;
 }
 
 h1:hover, h2:hover, h3:hover, a:hover {
@@ -29,7 +33,7 @@ h1:hover, h2:hover, h3:hover, a:hover {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
