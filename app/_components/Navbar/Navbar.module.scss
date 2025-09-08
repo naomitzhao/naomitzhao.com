@@ -1,11 +1,13 @@
 .navbar {
     height: var(--navbar-height);
-    // background-color: var(--overlay-background);
     width: 100%;
     padding: 0 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    background-color: var(--bg2);
+    box-shadow: var(--shadow);
 }
 
 .navLinkList {
@@ -23,12 +25,11 @@
 
     a {
         font-size: 1.25rem;
-        color: var(--text-primary);
         transition: font-size 0.2s ease-in-out;
     }
 
     a:hover {
         font-size: 1.3rem;
-        color: var(--text-secondary);
+        color: var(--fg2);
     }
 }

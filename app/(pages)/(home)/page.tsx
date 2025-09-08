@@ -5,7 +5,6 @@ import { BackgroundImage } from "@/app/_components/BackgroundImage/BackgroundIma
 export default function Home() {
   return (
     <div className={styles.page}>
-      <BackgroundImage/>
       <div className={styles.content}>
         <div className={styles.textContent}>
           <div className={styles.textSection}>

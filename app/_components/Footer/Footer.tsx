@@ -6,8 +6,6 @@ export function Footer() {
         <div className={styles.footer}>
             <p>
                 made with ♡ by naomi zhao
-                --
-                image credit: <a href="https://pixabay.com/users/pexels-2286921/">Pexels</a>
             </p>
         </div>
     );
