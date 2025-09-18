@@ -1,4 +1,3 @@
-import { BackgroundImage } from "../BackgroundImage/BackgroundImage";
 import styles from "./Wip.module.scss";
 
 export default function Wip() {

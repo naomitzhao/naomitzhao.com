@@ -1,6 +1,5 @@
 import styles from "./page.module.scss";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BackgroundImage } from "@/app/_components/BackgroundImage/BackgroundImage";
 
 export default function Home() {
   return (
