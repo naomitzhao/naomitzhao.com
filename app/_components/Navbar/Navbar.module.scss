@@ -3,16 +3,26 @@
     width: 100%;
     padding: 0 80px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 
     background-color: var(--bg2);
     box-shadow: var(--shadow);
+
+    a {
+        text-decoration: none;
+        color: var(--fg2);
+    }
+
+    a:hover {
+        color: var(--fg3);
+    }
 }
 
 .navLinkList {
     display: flex;
     gap: 40px;
+    flex: 1;
+    justify-content: center;
 
     list-style: none;
 
@@ -25,11 +35,5 @@
 
     a {
         font-size: 1.25rem;
-        transition: font-size 0.2s ease-in-out;
-    }
-
-    a:hover {
-        font-size: 1.3rem;
-        color: var(--fg2);
     }
 }
