@@ -59,6 +59,30 @@
   }
 }
 
+.stardewIcons {
+  width: 576px;
+  height: 60px;
+  position: absolute;
+  bottom: 24px;
+  left: calc(50% - 576px * 0.5);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.stardewIconContainer {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  img:hover {
+    height: 60px;
+    width: 60px;
+  }
+}
+
 .naomiCrunchwrapWrapper {
   position: absolute;
   width: 223px;

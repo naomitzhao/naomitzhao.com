@@ -2,6 +2,16 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Link from "next/link";
 
+const STARDEW_ICONS = [
+  "strawberry",
+  "orange",
+  "starfruit",
+  "broccoli",
+  "ancient_fruit",
+  "grape",
+  "peach",
+];
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -18,6 +28,13 @@ export default function Home() {
               food, and living my best life (yippee!)
             </p>
           </div>
+        </div>
+        <div className={styles.stardewIcons}>
+          {STARDEW_ICONS.map((icon_name) => 
+            <div key={icon_name} className={styles.stardewIconContainer}>
+              <Image src={`/stardew/${icon_name}.png`} alt={`Stardew Valley ${icon_name} icon`} height={48} width={48}/>
+            </div>
+          )}
         </div>
         <div className={styles.naomiCrunchwrapWrapper}>
           <Image
