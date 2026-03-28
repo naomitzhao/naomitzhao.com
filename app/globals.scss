@@ -2,10 +2,10 @@
   font-size: 1.125rem;
 
   --fg1: #000000;
-  --fg2: #342F36;
-  --fg3: #9950B6;
-  --bg2: #F7F6F7;
-  --bg1: #F1F1F1;
+  --fg2: #342f36;
+  --fg3: #9950b6;
+  --bg2: #f7f6f7;
+  --bg1: #f1f1f1;
   --bg0: #ffffff;
 
   --navbar-height: 100px;
@@ -40,7 +40,9 @@ a:hover {
   font-size: 1.0625rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--georgia);
 }
 
