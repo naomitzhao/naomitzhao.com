@@ -5,7 +5,7 @@ export default function Wip() {
     <>
       <div className={styles.content}>
         <h2>currently under construction...</h2>
-        <p>check back later! :{')'}</p>
+        <p>check back later! :{")"}</p>
       </div>
     </>
   );

@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.scss";
 import { Footer } from "./_components/Footer/Footer";
 import { Navbar } from "./_components/Navbar/Navbar";
 
-const inter = Inter({
-  variable: "--inter",
-  subsets: ["latin"],
+const calibri = localFont({
+  src: "/fonts/Calibri.ttf",
+  variable: "--calibri",
+});
+
+const georgia = localFont({
+  src: "/fonts/Georgia.ttf",
+  variable: "--georgia",
 });
 
 export const metadata: Metadata = {
-  title: "hi, i'm naomi!",
-  description: "personal website of naomi zhao",
+  title: "Naomi Zhao",
+  description: "Personal website of Naomi Zhao",
 };
 
 export default function RootLayout({
@@ -21,10 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}`}>
-        <Navbar/>
+      <body className={`${calibri.variable} ${georgia.variable}`}>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
