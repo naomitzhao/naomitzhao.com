@@ -5,7 +5,7 @@ export function Footer() {
     return (
         <div className={styles.footer}>
             <p>
-                made with ♡ by naomi zhao
+                made with ♡ by naomitzhao
             </p>
         </div>
     );

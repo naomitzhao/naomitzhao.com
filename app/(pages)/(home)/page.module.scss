@@ -12,6 +12,7 @@
 .hero {
   height: 600px;
   display: flex;
+  position: relative;
 }
 
 .stickerWrapper {
@@ -46,8 +47,16 @@
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
+}
+
+.naomiCrunchwrapWrapper {
+  position: absolute;
+  width: 223px;
+  height: 298px;
+  bottom: 0;
+  right: 0;
 }
 
 .homeAbout {
@@ -77,4 +86,19 @@
   ul {
     margin-left: 20px;
   }
+}
+
+.pageEnd {
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.beeWrapper {
+  position: relative;
+  width: 200px;
+  height: 122px;
 }
