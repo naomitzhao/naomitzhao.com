@@ -13,20 +13,28 @@
   height: 600px;
   display: flex;
   position: relative;
+  padding: 0 80px;
 }
 
 .stickerWrapper {
   position: relative;
   top: -20px;
-  width: 467px;
+  flex: 1;
+  max-width: 467px;
   height: 1068px;
+
+  img {
+    object-fit: contain;
+    object-position: top;
+  }
 }
 
 .speech {
+  flex: 1;
   position: relative;
   top: 40px;
-  width: 672px;
   height: 327px;
+  margin-left: -80px;
 }
 
 .speechText {
@@ -55,6 +63,7 @@
   position: absolute;
   width: 223px;
   height: 298px;
+  flex: 1;
   bottom: 0;
   right: 0;
 }
@@ -79,6 +88,7 @@
 }
 
 .homeAboutText {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 24px;

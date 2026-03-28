@@ -10,7 +10,6 @@ export default function Home() {
           <Image src="/naomi_sticker.png" fill alt="Sticker of Naomi Zhao" />
         </div>
         <div className={styles.speech}>
-          <Image src="/speech_bubble.svg" fill alt="Speech bubble" />
           <div className={styles.speechText}>
             <h2>HEY! I&apos;m Naomi 🙀</h2>
             <p>Welcome to my corner of the internet!</p>
